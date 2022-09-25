@@ -7,7 +7,7 @@ public class GuessANumber {
         Scanner scanner = new Scanner(System.in);
 
         Random randomNumber = new Random();
-        int computerNumber = 1 + randomNumber.nextInt(99);
+        int computerNumber = 1 + randomNumber.nextInt(100); //1 + between 0 (inclusive) and 100 (exclusive)
 
         System.out.printf("Welcome and let's play! :)%nYou have 7 tries to guess the number.");
         int counter = 1;
